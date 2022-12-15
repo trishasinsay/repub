@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b38755;
+    height: 130px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+
+  }
+  .content button{
+    background-color: transparent;
+  }
+
+  .content button:hover {
+    padding-top: 10px;
+    background-color: #fcaa42;
+  }
+
+  .image{
+    background-color:transparent;
+    border-radius: 150px;
+    align-items: left;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 160px;
+  }
+  .message {
+    color: black;
+    width: 100%;
+    text-align: left;
+    margin-left: 40px ;
+    margin-top: 125px;
+    font-size: 30px;
+    font-family: "Gruppo";
+  }

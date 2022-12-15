@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+
+
+.container {
+    padding: 30%;
+    display: flex;
+    align-items: center;
+    background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/312124792_674413257426227_2963688446424907377_n.png?stp=dst-png_p206x206&_nc_cat=104&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGXElDACIRk5Sxvn3EnQ2nc0rKQJpnhTq3SspAmmeFOrXSAJZV25s93r1oxA9Chi0Q47ytgRDbSn_rOeKB1Y1Xd&_nc_ohc=mHpGmfumaqgAX_CximA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTgYUxMmBW4tcH-uKi70X1GntvyIWmnHRxJJ7N_ZH8lXQ&oe=63A802C0);
+    background-repeat: no-repeat;
+    background-size: 585%;
+    padding-bottom: 33px;
+}
+.cards {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.cards * {
+    box-sizing: border-box;
+}
+
+.card__image {
+    width: 360px;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.795);
+    -moz-box-shadow: 10px 10px 10px rgb(0, 0, 0,  0.795);
+    -webkit-box-shadow: 10px 10px 10px rgb(0, 0, 0,  0.795);
+    -khtml-box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.795);
+    margin-top: -300px;
+    margin-left: 90px;
+}
+
+.card__content {
+    line-height: 0.5;
+    font-size: 20px;
+    font-family: 'Graduate';
+    color: black;
+    white-space: pre;
+    text-align: center;
+    margin-left: 75px;
+    margin-bottom: -50px;
+}
+
+.word {
+    color: black;
+    margin-top: 40%;
+    word-spacing: 5px;
+    line-height: 1.5;
+    text-align: center;
+    margin-left: -280px;
+    font-size: 25px;
+    inline-size: 1100px;
+    overflow-wrap: break-word;
+    background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/313199217_633859965194794_4190908997850844920_n.png?stp=dst-png_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFEWS1bDiaXdu_rGbqAKgnYxZCSQZTiJkzFkJJBlOImTJ8vu2U3zs7orm1a50CHN-iQZ-hAZWMVlvd0S92dMfKY&_nc_ohc=PwHxtOtcqTQAX95ZYoH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSocDSrRSrsmNifOnsxHnwxfzVQKXDgaFzmf5InBkkZxA&oe=63AA624E);
+    background-repeat: no-repeat;
+    background-size: 980%;
+    font-family: "Gilda Display";
+    color: #ffeedb;
+    
+}
+.link button{
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 60px;
+    font-size: large;
+    cursor: pointer;
+
+}
+.link button:hover{
+    background: #fca442;
+    opacity: 0.7;
+}
+
+.link{
+    margin-top: -5px;
+    color: white;
+    margin-left: 680px;
+  }
+
+  .back_button button{
+    background-color: black;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 60px;
+    font-size: large;
+    cursor: pointer;
+    
+}
+
+.back_button button:hover{
+    background: #fca442;
+    opacity: 0.7;
+}
+
+.back_button{
+    margin-top: -40px;
+    color: white;
+    margin-left: -280px;
+  }

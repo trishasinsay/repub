@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+
+.main {
+    text-align: center;
+    justify-content: center;
+    display: flex; 
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background:url(https://scontent.xx.fbcdn.net/v/t1.15752-9/316512536_3376834502534492_945437603627809932_n.png?stp=dst-png_s370x247&_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFaMNDYDu5Jt6bNfG9scRJaoFUWohANyQWgVRaiEA3JBZI1Tl25C7pSV_1vzqYFAWwEmdl_tZLdo428zm1FOgSB&_nc_ohc=NAZcMk8hRLUAX9ipuJk&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT_1N473y9cgHrZQUPoqD814RomOeSatBmdZTRb14uGQA&oe=63A5382B);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .submain {
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 35%;
+    padding-top: 30px;
+    border-radius: 60px; 
+    background-color: transparent;
+  }
+  .imgs {
+      padding-top: 20px;
+      justify-content: center;
+      display: flex;
+    }
+  .container_image {
+    background-color:transparent;
+    border-radius: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 145px;
+    width: 115px;
+  }
+  .profile {
+    height: 275px;
+    width: 275px;
+    border-radius: 130px;
+  } 
+
+  .input{
+    width: 380px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: transparent;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: -50px;
+    margin-left: 70px; 
+}
+
+.input label{
+  margin-left: -190px;
+  font-size: 20px;
+  padding-right: 30px;
+  color: #ffeedb;
+}
+
+.name{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 60px;
+    color: white;
+}
+.second_input{
+    width: 480px;
+    height: 50px;
+    border-radius: 60px;
+    background-color: transparent;
+    margin-top: -100px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-right: -50px;
+    margin-left: 45px; 
+}
+
+.second_input label{
+  margin-left: -180px;
+  font-size: 20px;
+  padding-right: 15px;
+  color: #ffeedb;
+}
+
+.error label1 {
+  margin-left: 20px;
+  margin-top: 15px;
+  font-size: 15px;
+  padding-right: 5px;
+  color: red;
+  
+}
+
+.error label2 {
+  margin-left: 5px;
+  margin-top: 15px;
+  font-size: 15px;
+  padding-right: 5px;
+  color: red;
+}
+
+.login_button button{
+    background-color: black;
+    height: 50px;
+    width: 120px;
+    border: none;
+    border-radius: 60px;
+    font-size: large;
+    cursor: pointer;
+
+}
+.login_button button:hover{
+    background: #fca442;
+    opacity: 0.7;
+}
+
+.login_button{
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border: none;
+    margin-left: 140px;
+
+  }
+
+  .login_button > a{
+    margin-left: -5px;
+  }
+
+  .link{
+      font-size: 25px;
+      font-weight: 400;
+  }
+
+  .link:hover{
+    text-decoration: underline;
+  }
+
+.submain h1{
+    font-family:"Cookie";
+    font-size: 48px;
+    color: #ffeedb;
+}
+
+.signup{
+  margin-top: -15px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.signup > p :hover{
+  text-decoration: underline;
+}

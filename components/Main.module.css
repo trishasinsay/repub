@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+.container {
+    padding: 50px;
+    background-color: #454545;
+    display: flex;
+    align-items: center;
+    background: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/316512536_3376834502534492_945437603627809932_n.png?stp=dst-png_s370x247&_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFaMNDYDu5Jt6bNfG9scRJaoFUWohANyQWgVRaiEA3JBZI1Tl25C7pSV_1vzqYFAWwEmdl_tZLdo428zm1FOgSB&_nc_ohc=NAZcMk8hRLUAX9ipuJk&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdT_1N473y9cgHrZQUPoqD814RomOeSatBmdZTRb14uGQA&oe=63A5382B);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  .message {
+    color: white;
+    width: 100%;
+    text-align: right;
+  }
+  
+  .message h1 {
+    margin-top: 100px;
+    font-size: 64px;
+    font-style: italic;
+    font-family:'Cookie';
+  }
+  
+  .message p {
+    margin-top: 25px;
+    font-size: 25px;
+    margin-right: -40px;
+    margin-left: 10px;
+    text-align: right;
+  }
+  
+  .image {
+    padding: 0px;
+    width: 410px;
+    height: 558px;
+    display: flex;
+    padding-top: 20px;
+
+  }
+  .image button{
+    height: 128%;
+    width: 120%;
+    margin-left: -50px;
+    margin-top: -100px;
+    background-color: #fca54288;
+  }
+
+  .GetStarted{
+    margin-top: 120px;
+    margin-left: 55%;
+    font-size: 45px;
+    font-weight: 400;
+    margin-left: 50%;
+    font-family: 'Cookie';
+}
+
+.GetStarted:hover{
+  text-decoration: underline;
+}
