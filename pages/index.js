@@ -12,11 +12,27 @@ export default function Home() {
   //
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:3000/repub;)
+    fetch("localhost:3000/repub;")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
         setLoading(false);
       });
   }, []);
+
+  //
+  if (isLoading) return <p>Loading...</p>;
+  if (!data) return <p>No user data</p>;
+
+  // render
+  return (
+    <div>
+      <h1>hi</h1>
+      {data.map((value) => (
+        <p>
+          {value.name} - {value.age}
+        </p>
+      ))}
+    </div>
+  );
 }
