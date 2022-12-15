@@ -12,7 +12,7 @@ export default function Home() {
   //
   useEffect(() => {
     setLoading(true);
-    fetch("localhost:3000/repub")
+    fetch("http://localhost:3000/repub")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
