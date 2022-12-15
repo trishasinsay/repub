@@ -12,7 +12,7 @@ export default function Home() {
   //
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:3000/repub")
+    fetch("https://repub-aeej.vercel.app/")
       .then((res) => res.json())
       .then((data) => {
         setData(data);
