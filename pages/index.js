@@ -19,20 +19,4 @@ export default function Home() {
         setLoading(false);
       });
   }, []);
-
-  //
-  if (isLoading) return <p>Loading...</p>;
-  if (!data) return <p>No user data</p>;
-
-  // render
-  return (
-    <div>
-      <h1>hi</h1>
-      {data.map((value) => (
-        <p>
-          {value.name} - {value.age}
-        </p>
-      ))}
-    </div>
-  );
 }
