@@ -28,7 +28,7 @@ export default function Login (){
            <div>
              <div className={styles.imgs}>
                <div className={styles.container_image}>
-                 <img src={"MARIALOGO.png"} alt="profile" className={styles.profile}/>
+                   <img src={"MARIALOGO.png"} alt="profile" className={styles.profile}/>
                </div>
              </div>
              <div>
